@@ -3,7 +3,7 @@ import React from 'react';
 import Footercontent from './FooterContent.js';
 
 function Footer(props) {
-    const { name = 'Ian Strand\'s Footer', url1 = 'http://localhost:3000/#home' } = props;
+    const { name = 'Ian Strand\'s Footer', url1 = 'https://ianstrand.github.io/webd171-3/#home' } = props;
 	    return (
 <footer className="text-muted text-center">
   <Footercontent />

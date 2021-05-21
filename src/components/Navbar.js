@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
 function Navbarwith(props) {
-const { name = 'Ian Strand\'s Navbar', link1 = 'Home', link2 = 'Page 2', link3 = 'Page 3', url1 = 'http://localhost:3000/#home', url2 = 'http://localhost:3000/#page2', url3 = 'http://localhost:3000/#page3' } = props;
+const { name = 'Ian Strand\'s Navbar', link1 = 'Home', link2 = 'Page 2', link3 = 'Page 3', url1 = 'https://ianstrand.github.io/webd171-3/#home', url2 = 'https://ianstrand.github.io/webd171-3/#page2', url3 = 'https://ianstrand.github.io/webd171-3/#page3' } = props;
 return (
 <div className="navbar-content">
   <Navbar bg="light" expand>

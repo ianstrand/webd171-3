@@ -2,7 +2,7 @@ import React from 'react';
 import { Jumbotron, Container, Row, Col, Card } from 'react-bootstrap';
 
 function Bodynav(props) {
-const { link1 = 'Home', link2 = 'Page 2', link3 = 'Page 3', url1 = 'http://localhost:3000/#home', url2 = 'http://localhost:3000/#page2', url3 = 'http://localhost:3000/#page3' } = props;
+const { link1 = 'Home', link2 = 'Page 2', link3 = 'Page 3', url1 = 'https://ianstrand.github.io/webd171-3/#home', url2 = 'https://ianstrand.github.io/webd171-3/#page2', url3 = 'https://ianstrand.github.io/webd171-3/#page3' } = props;
 return (
 <div className="main-container pb-5">
   <Container className="pb-5">
